@@ -1,4 +1,4 @@
-package com.wesselli.driver;
+package com.delivery.driver;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -14,9 +14,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.ViewTreeObserver;
 import android.webkit.CookieSyncManager;
 import android.webkit.GeolocationPermissions;
 import android.webkit.JavascriptInterface;

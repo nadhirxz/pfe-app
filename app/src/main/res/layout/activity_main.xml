@@ -30,7 +30,7 @@
         android:layout_height="fill_parent"
         android:windowSoftInputMode="adjustResize">
 
-        <com.wesselli.driver.MyWebView
+        <com.delivery.driver.MyWebView
             android:id="@+id/webview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

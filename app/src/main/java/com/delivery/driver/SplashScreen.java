@@ -1,4 +1,4 @@
-package com.wesselli.driver;
+package com.delivery.driver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
