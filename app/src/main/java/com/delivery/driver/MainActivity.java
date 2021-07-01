@@ -33,9 +33,9 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 public class MainActivity extends AppCompatActivity {
     private MyWebView webview;
     private SwipeRefreshLayout swipe;
-    private String LINK = "https://www.wesselli.me/staff";
+    private String LINK = "https://pfeusthb.herokuapp.com/drivers";
     private String VERSION = "1.0 (Driver)";
-    private String RELEASE_DATE = "29/07/2020";
+    private String RELEASE_DATE = "01/07/2021";
 
     public class GeoWebChromeClient extends WebChromeClient {
         @Override
