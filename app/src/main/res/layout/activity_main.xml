@@ -17,8 +17,8 @@
         tools:layout_editor_absoluteY="-330dp">
 
         <pl.droidsonroids.gif.GifImageView
-            android:layout_width="400px"
-            android:layout_height="400px"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/loading" />
 
     </LinearLayout>
