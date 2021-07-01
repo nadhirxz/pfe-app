@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('animated-svg-view-1.0.6.aar'))

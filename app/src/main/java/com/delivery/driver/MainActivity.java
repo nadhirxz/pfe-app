@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         );
-        swipe.setColorSchemeColors(Color.parseColor("#0067F4"));
+        swipe.setColorSchemeColors(getResources().getColor(R.color.colorPrimary));
 
         webview = (MyWebView) findViewById(R.id.webview);
 
