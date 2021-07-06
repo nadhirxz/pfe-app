@@ -188,10 +188,6 @@ public class MainActivity extends AppCompatActivity {
             return VERSION;
         }
         @JavascriptInterface
-        public String getAppReleaseDate() {
-            return RELEASE_DATE;
-        }
-        @JavascriptInterface
         public void disableRefresh() {
             swipe.setEnabled(false);
         }
