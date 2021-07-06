@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private String LINK = "https://pfeusthb.herokuapp.com/drivers";
     private String VERSION = "1.0 (Driver)";
     private String RELEASE_DATE = "01/07/2021";
+    private static int notification_id = 0;
 
     public class GeoWebChromeClient extends WebChromeClient {
         @Override
@@ -172,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Add as notification
         NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        manager.notify(0, builder.build());
+        manager.notify(notification_id++, builder.build());
     }
     public class WebAppInterface {
         Context mContext;
