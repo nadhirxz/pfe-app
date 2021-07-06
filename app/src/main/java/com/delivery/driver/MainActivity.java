@@ -163,7 +163,8 @@ public class MainActivity extends AppCompatActivity {
                 .setContentTitle(title)
                 .setContentText(message)
                 .setSmallIcon(R.drawable.notification)
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.notification));
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.notification))
+                .setStyle(new NotificationCompat.BigTextStyle().bigText(message));
 
         // Creates the intent needed to show the notification
         Intent notificationIntent = new Intent(this, MainActivity.class);
