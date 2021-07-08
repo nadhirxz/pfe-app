@@ -1,4 +1,4 @@
-package com.delivery.driver;
+package com.livry.driver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;

@@ -30,7 +30,7 @@
         android:layout_height="fill_parent"
         android:windowSoftInputMode="adjustResize">
 
-        <com.delivery.driver.MyWebView
+        <com.livry.driver.MyWebView
             android:id="@+id/webview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
