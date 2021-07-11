@@ -32,7 +32,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 public class MainActivity extends AppCompatActivity {
     private MyWebView webview;
     private SwipeRefreshLayout swipe;
-    private String LINK = "https://pfeusthb.herokuapp.com/drivers";
+    private String LINK = "https://livry.herokuapp.com/drivers";
     private String VERSION = "1.0 (Driver)";
     private String RELEASE_DATE = "01/07/2021";
     private static int notification_id = 0;
