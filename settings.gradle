@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Wesselli Driver"
+rootProject.name = "Livry Driver"
